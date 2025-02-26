@@ -5,7 +5,7 @@ import math
 def volume_sphere(radius):
     """Calcule le volume d'une sphère"""
     if radius < 0:
-        raise ValueError("Le rayon ne peut pas être négatif.")
+        raise ValueError("Le rayon ne peut pas <0.")
     return (4/3) * math.pi * (radius ** 3)
 
 def volume_cylinder(radius, height):
