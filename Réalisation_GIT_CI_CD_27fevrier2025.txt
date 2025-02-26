@@ -1,0 +1,34 @@
+1)écrire (dans un langage au choix :python, js ou autre)
+  un tout petit projet informatique comportant au moins:
+   - quelques fichiers de code
+   - des tests (unitaires ou autres associés)
+
+2) déposer ce code dans un référentiel git (ex: GitHub)
+
+3) configurer "Jenkins" pour lancer un build automatiquement
+   en testant si le référentiel git a changé ou pas toutes les 5 minutes
+   Ce build (codé en mode "pipeline") devra au minimum comporter des lancements de tests"
+
+----------------------------------
+
+4) générer éventuellement une image docker (que l'on pourra déposer dans un référentiel docker) en fin de pipeline
+5) récupérer cette image docker et la faire fonctionner pour vérifier son bon fonctionnement
+
+----------------------------------
+
+6) si le temps de permet :
+  - créer une nouvelle branche "feature-xy" 
+  - diffuser celle-ci vers le référentiel git distant/partagé
+  - ajouter un peu de code + test
+  - effectuer un merge au niveau de la branche "main"
+  - prendre en compte cela du coté Jenkins (ajuster si besoin le pipeline) 
+  - …
+
+7) peaufiner éventuellement tout cela (petite documentation , rapport …) 
+
+----------------------
+Thème : devise et addition = sujets interdits car exemples du cours
+        tout autre sujet autorisé :
+             exemple1: api rest sur blagues ou devinettes (id_devinette , devinette , réponse ) 
+             exemple2: application de calculs statistiques (on récupère par saisie une dizaine valeurs numériques 
+                       puis on calcule et affiche la somme , la moyenne et l'écart-type)
