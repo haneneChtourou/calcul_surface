@@ -6,7 +6,7 @@ def volume_sphere(radius):
     """Calcule le volume d'une sphère"""
     if radius < 0:
         raise ValueError("Le rayon ne peut pas inégatif.")
-    return (4/3) * math.pi * (radius ** 3)
+    return (4/3) * math.piM * (radius ** 3)
 
 def volume_cylinder(radius, height):
     """Calcule le volume d'un cylindre"""
